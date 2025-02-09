@@ -12,7 +12,7 @@ Program działa w trybie tekstowym i używa standardowych usług BIOS do wyświe
 # Sposób użycia
 Po uruchomieniu programu użytkownik zostaje zaproszony do wprowadzenia jednej z trzech komend:
 
-Zapis do pamięci (Wxxxx): Należy podać adres w formacie szesnastkowym, do którego zostanie zapisany wartość.
+Zapis do pamięci (Wxxxx): Należy podać adres w formacie szesnastkowym, do którego zostanie zapisana wartość.
 
 Odczyt z pamięci (Rxxxx): Należy podać adres, z którego zostanie odczytana wartość i wyświetlona na ekranie.
 
@@ -52,6 +52,7 @@ To komputer wykona kod zapisany pod adresem 0xAAA0 w góre (w którym znajdują 
 
 Zaleca się zastosowania na końcu programu instrukcje hlt czyli `C3` co powoduje że zatrzyma wykonywanie następnych instrukcji.
 
-Program został napisany w assembleru 8086 w 512 bajtach ponieważ kod zajmuje tylko pamięć przeznaczoną dla bootsektora od adresu 0x7c00 do 0x7e00 pod żadnym pozorem nie używać tego adresu w celu pisania kodu bo uszkodzimy program rozruchowy.
+Program został napisany na assemblerze 8086 w 512 bajtach ponieważ kod zajmuje tylko pamięć przeznaczoną dla bootsektora od adresu 0x7c00 do 0x7e00 pod żadnym pozorem nie używać tego adresu w celu pisania kodu bo uszkodzimy program rozruchowy.
 
-Dziękuje za przeczytanie informacji o programie oraz informujemy że modyfikowanie jest zabronione podlega prawami autorskimi dla Kamila Malickiego 
+Dziękuje za przeczytanie informacji o programie oraz informuje że modyfikowanie jest zabronione podlega prawom autorskim
+Kamil Malicki
