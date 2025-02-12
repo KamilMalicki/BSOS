@@ -7,6 +7,14 @@ Program jest prostym monitorem, który działa w trybie rzeczywistym na architek
 
 `Xxxxx` - Uruchamia kod znajdujący się pod adresem xxxx.
 
+`C`     - Czyści ekran.
+
+a także komendy o zaawansowanym zastosowaniu
+
+`wxxxx xx xx...`- Zapisuje wartości heksadecymalne podobne do `Wxxxx xx` ale adres który został podane sie inkrementuje i wartosci wprowadzone dalej są do dalszego adresu, dopóki użytkownik nie wprowadzi $ zapisywanie danych sie nie skączy. `wAAA0 B0 0E B4 48 CD 10 $`
+
+`rxxxx xx xx...` - umożliwia odczytanie wartości z pamięci w określonym zakresie i wyświetlenie ich w formacie heksadecymalnym. Wprowadzenie polega na podaniu dwóch adresów `rAAA0:AAAF`. Wartości są wyświetlane po 16 na raz agdy osisągnie w jednym wierszu 16 wyświetlonych wartosci w adresach następuje skok do następnej lini, w razie osisiągniecia końca zakresu, proces jest kończony.
+
 Program działa w trybie tekstowym i używa standardowych usług BIOS do wyświetlania tekstu i wczytywania danych z klawiatury.
 
 # Sposób użycia
